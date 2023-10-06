@@ -1,0 +1,101 @@
+:root {
+  --color-black: #000000;
+  --color-l-black: #292525;
+  --color-gray: #6e6c6c;
+  --color-d-gray: #464343;
+  --color-white: #ffffff;
+  --color-wheat: #aeadad;
+  --border-radius-1: 0.6rem;
+  --border-radius-2: 50%;
+  --border-radius-3: 2rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  position: relative;
+  width: 48rem;
+  height: 30rem;
+  margin: 14rem auto;
+}
+.main .top {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 11rem;
+  height: 4rem;
+  transform: translateX(-50%);
+  background-color: var(--color-black);
+  border-top-left-radius: var(--border-radius-1);
+  border-top-right-radius: var(--border-radius-1);
+}
+.main .inner-top {
+  position: absolute;
+  top: 2%;
+  left: 57%;
+  width: 1.3rem;
+  height: 1.3rem;
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-2);
+}
+.main .main-body {
+  position: relative;
+  top: 12%;
+  bottom: 0;
+  width: 100%;
+  height: 88%;
+  background: linear-gradient(to top, #000000, #1a1919);
+  border-radius: var(--border-radius-3);
+}
+.main .main-body .big-circle {
+  position: absolute;
+  width: 17rem;
+  height: 17rem;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -44%);
+  background: radial-gradient(rgb(0, 0, 0), rgb(71, 23, 23));
+  border-radius: var(--border-radius-2);
+  border: 1px solid var(--color-black);
+  box-shadow: 0 0 10px 0 var(--color-gray);
+}
+.main .main-body .med-circle {
+  position: absolute;
+  width: 11rem;
+  height: 11rem;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  background: radial-gradient(circle closest-side, rgb(31, 29, 29), rgb(21, 3, 3));
+  border-radius: var(--border-radius-2);
+  border: 1px solid var(--color-black);
+}
+.main .main-body .small-circle {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -46%);
+  background: radial-gradient(rgb(0, 0, 0), rgb(79, 3, 3));
+  border-radius: var(--border-radius-2);
+  border: 1px solid var(--color-black);
+}
+.main .main-body .tiny-circle {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -46%);
+  background: radial-gradient(black, rgb(243, 232, 232));
+  border-radius: var(--border-radius-2);
+}/*# sourceMappingURL=styles.css.map */
